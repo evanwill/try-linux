@@ -3,19 +3,15 @@ title: Home
 layout: default
 ---
 
-# Bootstrap Workshop Template!
+# Try Linux: Getting Started with Linux Desktop Operating Systems
 
-{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
+{% include figure.html img="tianyi-ma-WiONHd_zYI4-unsplash.jpg" alt="laptop opening with light" %}
 
-A minimal Jekyll theme with Bootstrap for creating workshop websites.
-
-*Add your workshop abstract here!*
-
-Learn how to create a super quick easy website for a workshop by writing a few markdown files! 
-Host it for free on GitHub with gh-pages, and share!
-Fun!
-
-*See also:* [workshop-template](https://evanwill.github.io/workshop-template/), original minimal version.
+Want to get started with Linux on your laptop or Raspberry Pi? 
+This workshop will introduce the most popular operating system in the world! 
+Although most people are more familiar with Windows or Mac, Linux OS runs the vast majority of web servers, super computers, smartphones, TVs, and other electronic devices. 
+You can also use desktop versions for free on your laptop or home computer. 
+And you can try it out without installing or changing your hard drive!
 
 {% include toc.html %}
 
