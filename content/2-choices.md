@@ -4,6 +4,8 @@ nav: Distro
 topics: What is a Distro? How to choose one?
 ---
 
+{% include alert.html color="info" text="To get started you will need to choose a distro to try. This section presents info to consider and demystify the options, but if you want a quick suggestion, just try [Ubuntu](https://www.ubuntu.com/)! Ubuntu is the most popular desktop Linux and has the most help readily available." %}
+
 ## Distributions
 
 Surf [Distrowatch](https://distrowatch.com/) to browse the latest distro news!
