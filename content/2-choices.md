@@ -50,11 +50,14 @@ Things to consider:
 
 See [Major Desktop Environments](#major-desktop-environments) below for lots more detail... 
 
-## 64 or 32
+## 64, 32, or Arm
 
-One last choice you might have to make is 64 or 32-bit?
+One last choice you might have to make is 64-bit, 32, or ARM?
+(That is your instruction set or architecture of your computer)
+
 Many distros have started to phase out 32-bit support, but you may still encounter the choice to download "64-bit" / "x86_64" / "AMD64" versus "32-bit" / "i386" / "i586".
 If your computer is still running, it is likely new enough to be 64-bit, so I would suggest ignoring 32-bit options unless you know your hardware requires it.
-Some distros now also support ARM processors, such as found in Raspberry Pi, so you may encounter an option like "ARMv7".
+
+Some distros now also support ARM processors, such as found in Raspberry Pi, so you may encounter an option like "ARMv7" or "aarch64".
 
 ## Encrypt
