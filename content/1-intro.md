@@ -6,20 +6,28 @@ topics: What is Linux? Why Linux?
 
 ## What is Linux?
 
-<span class="term">Linux</span> ([pronunciation](https://upload.wikimedia.org/wikipedia/commons/0/03/Linus-linux.ogg)) is a family of open source operating systems (OS).
+<span class="term">Linux</span> is a family of open source operating systems (OS) used to run all kinds of computers, from laptops to super computers.
 You might hear "Unix-like" or "*nix", since Linux is part of a group of OS descended from the early research computing system [UNIX](https://en.wikipedia.org/wiki/Unix).
+
+<div class="border rounded px-3 py-2 mb-3 text-center">
+<audio controls class="w-100">
+    <source src="https://upload.wikimedia.org/wikipedia/commons/0/03/Linus-linux.ogg" type="audio/ogg">
+    Your browser does not support the audio element.
+</audio>
+<small>"Hello! This is Linus Torvalds, and I pronounce Linux as /ˈlinʊks/." (<a href="https://commons.wikimedia.org/wiki/File:Linus-linux.ogg">Wikimedia Commons</a>)</small>
+</div>
 
 An <span class="term">OS</span> is made up of a many components, basically:
 
 - **Bootloader:** starts the low level processes necessary to boot an OS, most linux distributions use [GRUB](https://www.gnu.org/software/grub/).
 - **Kernel:** manages the hardware and low level software components, coordinating the complete OS. This is actually "[Linux](https://www.kernel.org/)".
 - **Shell:** text-based command line interface.
-- **Desktop environment:** graphical interface .
+- **Desktop environment:** graphical interface.
 - **Applications:** individual programs run from the desktop or shell.
 
-The core of Linux, the <span class="term">[Kernel](https://www.kernel.org/)</span>, is developed by the [Linux Foundation](https://www.linuxfoundation.org/about/) and original creator Linus Torvalds, with contributions from thousands of people and corporations around the world.
-Linux operating systems are usually shipped as a complete package of components called a distribution, or "distro".
-There are hundreds to choose from, each with different philosophies, strengths, and use cases.
+The core of Linux, <span class="term">[The Kernel](https://www.kernel.org/)</span>, is developed by the [Linux Foundation](https://www.linuxfoundation.org/about/) and original creator Linus Torvalds, with contributions from thousands of people and corporations around the world.
+Linux operating systems are usually shipped as a complete package of components called a <span class="term">distribution</span>, or "distro".
+There are hundreds of distros to choose from, maintained by independent organizations, communities, or individuals, each with different philosophies, strengths, and use cases.
 
 ## Why Linux?
 
@@ -31,7 +39,7 @@ Linux core is <span class="term">[Free Software](https://www.gnu.org/philosophy/
 
 But for most users, that is not necessarily the most compelling reason to use Linux. 
 Instead they just appreciate a solid, powerful, and user-friendly OS.
-Linux provides security, privacy, stability/reliability, customization, and cost benefits, in addition to access to a huge ecosystem of open-source applications and services.
+Linux provides performance, security, privacy, and cost benefits, in addition to access to a huge ecosystem of open-source applications and services.
 
 Linux runs the vast majority of web servers (95%+), super computers (all of the top 500), smart phones (80%+), Chromebooks, IoT, and single board computers. 
 So if you want to use a VM in the cloud, do high performance computing, or tinker with a Raspberry Pi at home, it's helpful to know Linux.
