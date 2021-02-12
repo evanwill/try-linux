@@ -1,6 +1,7 @@
 ---
 title: Resources
 nav: Resources
+description: "Info about: [Desktop Environments](#major-desktop-environments), [Distro Families](#major-distro-families), [Common Applications](#common-applications)"
 ---
 
 ## Major Desktop Environments
@@ -32,11 +33,13 @@ Major desktops:
 > Most desktops support themes which make it easy to change the look and feel. 
 > For example check out the themes page at [OMG! Ubuntu!](http://www.omgubuntu.co.uk/category/themes-2).
 
-# Major Distro Families
+---------------------------
+
+## Major Distro Families
 
 Below is a basic introduction to the major linux families, with a focus on distros with desktop friendly versions.
 
-### Debian
+{% capture debian %}
 
 One of the oldest active linux distros, Debian has extensive stable repositories that are the base of MANY other distros. 
 This includes Ubuntu, developed by enterprise software company [Canonical](https://www.canonical.com/) based in the UK.
@@ -58,8 +61,8 @@ Uses `apt` configuration and `.deb` packages.
 - [Endless OS](https://endlessos.com/home/), simplified, education focused system designed for offline use, by computer company [Endless](https://endlessos.com/computers/).
 - [deepin](https://deepin.org/), Chinese based distro with unique desktop and apps. 
 
-### Fedora / RedHat
-
+{% endcapture %}{% include card.html header="Debian" text=debian %}
+{% capture fedora %}
 Based in the USA, [Red Hat](https://www.redhat.com/) is one of the largest open-source enterprise software companies, providing support, development, and Linux OS to major corporations.
 It is a good choice to learn if you are interested in working with enterprise environments.
 Uses `yum` or `dnf` configuration and `.rpm` packages.
@@ -70,10 +73,9 @@ Uses `yum` or `dnf` configuration and `.rpm` packages.
     - [Sugar on a Stick](https://spins.fedoraproject.org/en/soas/), very unique kid focused learning platform, packaged to run on a live USB. Learn more at [Sugar Labs](https://www.sugarlabs.org/).
 - [Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), an industry standard, non-free.
 - ~~[CentOS](https://www.centos.org/)~~, free community supported RHEL. Once very popular, was unexpectedly discontinued in 2020 during Red Hat corporate changes.
-- ~~[Scientific Linux](https://www.scientificlinux.org/)~~, free RHEL-based OS developed by Fermilab for high performance scientific computing environments (is now being phased out in favor of CentOS).
 
-### SUSE
-
+{% endcapture %}{% include card.html header="Fedora / RedHat" text=fedora %}
+{% capture suse %}
 Germany based enterprise FOSS company.
 Uses `ZYpp` or `YaST` for configuration and `.rpm` packages.
 
@@ -81,18 +83,18 @@ Uses `ZYpp` or `YaST` for configuration and `.rpm` packages.
     - [GeckoLinux](https://geckolinux.github.io/), openSUSE spin focused on being user friendly.
 - [SUSE Linux Enterprise](https://www.suse.com/), commercial distro with focus on mature and stable server environments.
 
-### Arch
-
+{% endcapture %}{% include card.html header="SUSE" text=suse %}
+{% capture arch %}
 An independent, community built family with rolling release following a *K.I.S.S.* and DIY philosophy. 
 Not traditionally user friendly.
 Uses `pacman` for configuration. [Archlinux packages](https://www.archlinux.org/packages/).
 
-- [Arch](https://www.archlinux.org/)
+- [Arch](https://www.archlinux.org/), "Keep It Simple"
 - [Manjaro](https://manjaro.org/), user friendly Arch for beginners.
 - [EndeavourOS](https://endeavouros.com/), intended to build user-friendly installer and community for Arch.
 
-### Others
-
+{% endcapture %}{% include card.html header="Arch" text=arch %}
+{% capture other %}
 **Independent.** Some distros go it alone. For example:
 
 - [Solus](https://getsol.us/home/), up-and-coming independent distro developing Budgie desktop.
@@ -125,9 +127,7 @@ For example:
 - [Clonezilla](http://www.clonezilla.org/), disk imaging/cloning deployment or recovery.
 - [DBAN](https://dban.org/), disk data destroyer.
 
-### Other open OS 
-
-There are other open-source OS out there, Linux is just the most popular.
+**Not Linux!** There are other open-source OS out there (Linux is just the most popular).
 
 - BSD: a family of OS descended from [Berkeley Software Distribution](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution) Unix. Considered rock-solid stable and secure for servers, with desktop focused options such as [FreeBSD](https://www.freebsd.org/) and [GhostBSD](https://www.ghostbsd.org/).
 - OpenSolaris / illumos / SunOS: a family of Unix-like OS descended from proprietary enterprise systems, currently openly developed by the [openindiana](https://www.openindiana.org/) community.
@@ -135,7 +135,8 @@ There are other open-source OS out there, Linux is just the most popular.
 - [KolibriOS](http://kolibrios.org/en/), minimalist, tiny OS.
 - [Redox OS](https://www.redox-os.org/), newly developed OS written in [Rust](https://www.rust-lang.org/en-US/) language.
 
-# Common Applications
+{% endcapture %}{% include card.html header="Other" text=other %}
 
+------------
 
-# Resources
+## Common Applications
