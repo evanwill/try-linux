@@ -3,7 +3,7 @@ title: Resources
 nav: Resources
 ---
 
-# Major Desktop Environments
+## Major Desktop Environments
 
 The major desktops can be divided by their "widget toolkit" used to create the GUI elements and default applications.
 This is probably the last time you will ever hear "widget toolkit", but you might hear something like GTX theme or Qt application.
@@ -129,7 +129,7 @@ For example:
 
 There are other open-source OS out there, Linux is just the most popular.
 
-- BSD: a family of OS descended from [Berkeley Software Distribution](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution) Unix. Considered rock-solid stable and secure for servers, with desktop options [FreeBSD](https://www.freebsd.org/) and [TrueOS](https://www.trueos.org/).
+- BSD: a family of OS descended from [Berkeley Software Distribution](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution) Unix. Considered rock-solid stable and secure for servers, with desktop focused options such as [FreeBSD](https://www.freebsd.org/) and [GhostBSD](https://www.ghostbsd.org/).
 - OpenSolaris / illumos / SunOS: a family of Unix-like OS descended from proprietary enterprise systems, currently openly developed by the [openindiana](https://www.openindiana.org/) community.
 - [Haiku](https://www.haiku-os.org/), based on BeOS, an early competitor to Mac.
 - [KolibriOS](http://kolibrios.org/en/), minimalist, tiny OS.
