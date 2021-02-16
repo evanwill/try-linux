@@ -42,13 +42,18 @@ footer {
         }
     }
 }
-
-/* change default colors */
+/* change default fonts */
 body {
-    color: $text-color;
+    @if $base-font-size != "" { font-size: $base-font-size; }
+    @if $text-color != "" { color: $text-color; }
 }
 a {
-    color: $link-color;
+    @if $link-color != "" { 
+        color: $link-color; 
+        &:hover {
+            @if $text-color != "" { color: $text-color; }
+        }
+    }
 }
 
 /* change container size for easier reading */
