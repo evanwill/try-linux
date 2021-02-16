@@ -140,3 +140,46 @@ For example:
 ------------
 
 ## Common Applications
+
+This is a basic list of common default software shipped with distros. 
+It is not intended as in depth suggestions or reviews, just to give you an idea of the apps you might expect to find.
+
+**Web browsers:**
+
+- Firefox - default on majority of distros. This is a great browser, with good extensions such as [Multi-account containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/?src=search) and [Facebook container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/).
+- Chromium - the open source browser that underlies Google Chrome, missing some proprietary Google components (which can be a good thing).
+- [Google Chrome](https://www.google.com/chrome/) - can be downloaded and installed including all proprietary features as on Windows.
+- You may encounter other more obscure open source browsers (particularly on lightweight distros) such as Midori, Falkon, GNOME Web (Epiphany), or Pale Moon.
+
+**Office software:**
+
+- LibreOffice (Writer, Calc, Impress) - freely replaces MS suite (Word, Excel, PowerPoint). It can open the proprietary MS office file formals, but conversion is not always perfect. Interface features are similar to an older version of MS office.
+- Thunderbird Mail - fully featured email client replaces MS Outlook. For an alternative, check Evolution Mail.
+- Calendar (GNOME) - independent calendar app can be integrated with online accounts.
+- Video chat: Zoom, MS Teams, Skype, and Slack all have native apps for Linux.
+- Office 365 online / Google Drive - works fine in browser.
+- Ubuntu offers [Online accounts](https://help.ubuntu.com/stable/ubuntu-help/accounts.html.en) feature to integrate some web services into default apps automatically.
+
+**Media:**
+
+- Your disto's default media apps will cover all the basics just like on Windows and Mac. There are many options out there, but the most common defaults include:
+    - Image Viewer (Eye of GNOME) - basic image viewer supports most image file formats.
+    - Document Viewer (Evince) - basic document viewer supports many formats (PDF, PostScript, DjVU, CBR, CBZ, etc)
+    - GNOME Videos - basic video viewer supports most open and proprietary formats and streaming video. If your distro provides proprietary codex, it can play encrypted DVDs.
+    - Rhythmbox - fully featured audio player.
+    - Shotwell - photo management app with basic editing features and ability to connect to online services.
+    - Cheese - photos and videos from web cam.
+    - Scanner - automatically connects to most scanners via USB or on local network.
+    - Printers typically just connect with no issues.
+- GIMP - advanced photo editing.
+- Inkscape - vector editing.
+
+**Utilities:** 
+
+- Basic helpers: Screenshot, Calculator, To-Do List, Text Editor, Terminal
+- Basic games: Solitaire, GNOME Mines, GNOME Sudoku, GNOME Mahjongg
+- Software - an app store like application for installing new programs.
+- Software Updater - automatically keeps system up to date, prompting you to install updates. Updates are much more common, but much quicker and less disruptive than on Windows.
+- System Monitor - like Windows task manager.
+- File Roller - create/open zip and other compressed file archives.
+- Deja Dupe Backup - set up automatic backup on internal or external drives.
