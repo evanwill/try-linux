@@ -142,7 +142,7 @@ For example:
 ## Common Applications
 
 This is a basic list of common default software shipped with distros. 
-It is not intended as in depth suggestions or reviews, just to give you an idea of the apps you might expect to find.
+It is not intended as in depth suggestions or reviews, but just to give you an idea of the apps you might expect to find.
 
 **Web browsers:**
 
@@ -171,13 +171,13 @@ It is not intended as in depth suggestions or reviews, just to give you an idea 
     - Cheese - photos and videos from web cam.
     - Scanner - automatically connects to most scanners via USB or on local network.
     - Printers typically just connect with no issues.
-- GIMP - advanced photo editing.
+- GIMP - advanced photo editing like Photoshop.
 - Inkscape - vector editing.
 
 **Utilities:** 
 
-- Basic helpers: Screenshot, Calculator, To-Do List, Text Editor, Terminal
-- Basic games: Solitaire, GNOME Mines, GNOME Sudoku, GNOME Mahjongg
+- Basic helpers: Screenshot, Calculator, To-Do List, Text Editor, Terminal.
+- Basic games: Solitaire, GNOME Mines, GNOME Sudoku, GNOME Mahjongg.
 - Software - an app store like application for installing new programs.
 - Software Updater - automatically keeps system up to date, prompting you to install updates. Updates are much more common, but much quicker and less disruptive than on Windows.
 - System Monitor - like Windows task manager.
