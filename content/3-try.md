@@ -54,8 +54,8 @@ If you don't already have a favorite,
 
 1. Plug your USB drive into your computer.
 2. Start up Etcher by clicking on the executable.
-3. In Etcher, select the ISO that you downloaded.
-4. Select the SD/USB (if you have only one plugged in, it will be automatically selected, Etcher will hide your main hard drives by default).
+3. In Etcher, choose "Flash from file" and select the ISO that you downloaded.
+4. Select your USB as target (if you have only one plugged in, it will be automatically selected, Etcher will hide your main hard drives by default).
 5. Click Flash! (you may need to authenticate at this point, since you are making changes to a drive)
 6. Wait. Wait. Wait... (this might take awhile as Etcher burns the image then verifies the integrity)
 7. Once successfully finished, remove your USB.
