@@ -13,7 +13,7 @@ Linux OS are usually shipped as a complete package of components called a <span 
 They include the low-level technical stuff, plus a desktop environment and selection of basic applications.
 There are hundreds of distros to choose from, maintained by independent organizations, communities, or individuals, each with different philosophies, strengths, and use cases.
 
-Surf [Distrowatch](https://distrowatch.com/) to browse the latest news and reviews.
+Surf <span class="term">[Distrowatch](https://distrowatch.com/)</span> to browse the latest news and reviews.
 
 {% include alert.html color="success" text="If you just want a quick suggestion of a distro to try, choose [Ubuntu Desktop](https://ubuntu.com/download/desktop) or an [Ubuntu flavor](https://ubuntu.com/download/flavours). Ubuntu is the most popular desktop Linux and has plenty of help readily available." %}
 
