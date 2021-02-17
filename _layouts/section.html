@@ -4,9 +4,9 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-{% if page.topics %}<div class="ml-3 mb-3 border-bottom">Topics: <strong>{{ page.topics }}</strong></div>{%- endif -%}
+{% if page.topics %}<div class="ml-4 mb-3 border-bottom">Topics: <strong>{{ page.topics }}</strong></div>{%- endif -%}
 
-{% if page.description %}<div class="ml-3 mb-3 border-bottom">{{ page.description | markdownify }}</div>{%- endif -%}
+{% if page.description %}<div class="ml-4 mb-3 border-bottom">{{ page.description | markdownify }}</div>{%- endif -%}
 
 {% if page.youtubeid %}
 <div class="text-center mb-4 border rounded p-2">
