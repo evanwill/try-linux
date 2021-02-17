@@ -16,6 +16,8 @@ The live session will have an app to permanently install the OS on your machine.
 Most installers are graphical and user-friendly, and will guide you through the process--generally there is just a few button clicks and a lot of waiting around!
 Check out Ubuntu's official [install tutorial](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop) to get a sense of what it looks like.
 
+When you are done, look for the Shut Down option, and simply shut down the machine as normal.
+
 {% capture basics %}
 ## Linux Basics
 
