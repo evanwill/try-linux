@@ -2,6 +2,7 @@
 title: Introduction to Linux
 nav: Intro
 topics: What is Linux? Why Linux?
+youtubeid: 2Qmrej9zKmg
 ---
 
 This workshop aims to get you started with desktop Linux by trying it out using a live USB on real hardware without having to permanently install anything.
