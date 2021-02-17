@@ -2,6 +2,7 @@
 title: Getting Started with Your Distro
 nav: Use
 topics: Installing tips; Linux basics
+description: Once your live session is booted, it is time to explore. This section introduces some Linux basics.
 ---
 
 With your distro's live session booted from USB, you can now explore Linux!
@@ -17,6 +18,8 @@ Most installers are graphical and user-friendly, and will guide you through the 
 Check out Ubuntu's official [install tutorial](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop) to get a sense of what it looks like.
 
 When you are done, look for the Shut Down option, and simply shut down the machine as normal.
+The system will generally prompt you to remove the USB drive before final shut down. 
+Once you restart, your computer's startup will be back to normal.
 
 {% capture basics %}
 ## Linux Basics

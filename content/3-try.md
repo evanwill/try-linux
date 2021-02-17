@@ -2,7 +2,7 @@
 title: How to Test A Distro
 nav: Try
 topics: Download; Burn ISO; Boot live USB
-description: The best way to learn Linux is to try it!
+description: The best way to learn Linux is to try it! This section walks through downloading, burning, and booting a live USB.
 ---
 
 So you chose your distro.
