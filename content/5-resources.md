@@ -32,6 +32,8 @@ Major desktops:
 
 > Most desktops support themes which make it easy to change the look and feel. 
 > For example check out the themes page at [OMG! Ubuntu!](http://www.omgubuntu.co.uk/category/themes-2).
+>
+> For a nerdy visualization of DEs over time see [Default Desktop Environments for Linux and Unix](https://eylenburg.github.io/de_default.htm).
 
 ---------------------------
 
@@ -136,6 +138,8 @@ For example:
 - [Redox OS](https://www.redox-os.org/), newly developed OS written in [Rust](https://www.rust-lang.org/en-US/) language.
 
 {% endcapture %}{% include card.html header="Other" text=other %}
+
+> For a nerdy visualization of all operating system families, see [Operating Systems: Timeline and Family Tree](https://eylenburg.github.io/os_familytree.htm).
 
 ------------
 
