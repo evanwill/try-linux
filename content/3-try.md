@@ -136,6 +136,16 @@ With Windows running:
 - Completely shutdown your computer (not sleep, hibernate, or restart).
 ' %}
 
+{% include card.html header="RST / RAID Issues" text='Some Intel Windows machines will use Rapid Storage Technology (RST) to treat the laptop harddrives as a RAID array. Unfortunately, Linux usually can't properly detect and use the drives using RST. 
+When you go to install your distro, you will get a warning saying it can't proceed with RST enabled. 
+
+If you are not trying to dual boot, it is relatively simple to enter BIOS/UEFI settings and switch the storage setting from RST/RAID to Advanced Host Controller Interface (AHCI) option. 
+The exact terminology used depends on the vendor, but just look for a setting where you can change it to AHCI!
+
+If you are trying to dual boot with Windows, you need to make this switch from with in Windows settings first! 
+See [Ubuntu's guide to RST](https://help.ubuntu.com/rst/) for full details. 
+' %}
+
 {% include card.html header="Secure Boot" text='
 Newer PCs have a [Secure Boot](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface#Secure_boot) feature that prevents unsigned OS from booting on the system.
 Major distributions (Ubuntu, Fedora, SUSE) have secure signatures that allow them to run on systems with Secure Boot (you do NOT need to disable it).
